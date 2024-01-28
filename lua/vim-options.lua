@@ -8,6 +8,11 @@ vim.opt.expandtab = true
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
+vim.opt.clipboard = "unnamedplus"
+vim.opt.ignorecase = true
+vim.opt.scrolloff = 999
+vim.opt.virtualedit = "block"
+vim.opt.inccommand = "split"
 vim.g.netrw_banner = 0
 
 --<leader> (space)

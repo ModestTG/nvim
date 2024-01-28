@@ -9,6 +9,6 @@ return {
 				null_ls.builtins.diagnostics.pylint,
 			},
 		})
-		vim.keymap.set("n", "<leader>gf", vim.lsp.buf.format, {})
+		vim.keymap.set("n", "<leader>pf", vim.lsp.buf.format, {})
 	end,
 }
